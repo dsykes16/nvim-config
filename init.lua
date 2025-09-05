@@ -980,6 +980,10 @@ require('lazy').setup({
   require 'plugins.neo-tree',
   require 'plugins.gitsigns', -- adds gitsigns recommend keymaps
   require 'plugins.ale',
+  require 'plugins.go',
+  require 'keybinds',
+  -- require 'plugins.coc',
+  -- require 'plugins.vim-go',
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    This is the easiest way to modularize your config.
